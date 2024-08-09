@@ -1,0 +1,399 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: #282A35;
+    color: white;
+    right: 0px;
+    top: 0px;
+    width: auto;
+    
+
+}
+
+.logo img {
+
+    height: 53px;
+    width: 78px;
+
+
+}
+
+nav {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+z-index: 1;
+
+
+
+
+}
+
+.navA ul li {
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    font-family: serif;
+    margin: 15px;
+    font-size: 17px;
+position: sticky;
+
+}
+.navA ul li a{
+    color: black;
+}
+.navb ul li a{
+    color: white;
+    background-color:  #282A35;
+    padding: 13px;
+    margin: 0px;
+}
+.navb{
+    background-color: #282A35;
+padding-top: 0px;
+  
+}
+ul li a {
+    
+    font: 5px;
+    font-weight: 100;
+    list-style: none;
+    text-decoration: none;
+    padding: 20px 15px;
+}
+
+.sl {
+    position: fixed;
+    right: 0px;
+    top: 18px;
+
+}
+
+.sl ul li a button {
+    border-radius: 17px;
+    background-color: rgba(27, 148, 37, 0.712);
+    font-size: 18px;
+
+}
+
+ul li a:hover {
+    background-color: rgba(16, 165, 13, 0.782);
+}
+
+#searchbar {
+    font-size: 18px;
+    border-radius: 25px;
+    width: 150px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.503);
+}
+
+
+#searchbar:hover {
+    border-color: rgb(32, 178, 19);
+    background-color: aliceblue;
+
+}
+
+.navb {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 60px;
+    background-color: black ,blue;
+    z-index: 1;
+
+
+}
+
+.navb ul li {
+
+    display: inline-flex;
+
+}
+
+.navb ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.799);
+}
+
+section .section-a{
+    align-items: center;
+position:relative ;
+ padding-left: 600px;
+    padding-top: 200px; 
+    height: 350px;
+}
+
+section h1 {
+    font-size: 80px;
+    padding: 19px;
+position:sticky;
+
+}
+
+section h1 {
+    font-size: 80px;
+    padding: 19px;
+}
+
+section p {
+    font-size: 25px;
+    padding: 10px;
+}
+
+#gg {
+    font-size: 25px;
+    width: 500px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+section a {
+    font-size: 25px;
+    padding: 10px;
+    align-content: cenw3 
+    ter;
+    color: rgba(243, 242, 238, 0.81);
+    position: relative;
+    padding: 30px 30px;
+}
+
+section a:hover {
+  color:rgb(244, 58, 7)
+}
+section .html-container{
+    background-color: #7ED8DB;
+    padding: 50px 50px;
+    color: black;
+    padding-left: 300px;
+
+}
+.html-container a{
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 23px;
+    padding: 20px 30px;
+}
+.html-container  #learn-html{
+    background-color: rgb(27, 238, 8);
+     border-radius: 23px;
+
+}
+.html-container  #learn-html:hover{
+    background-color: rgba(16, 243, 12, 0.944);
+}
+.html-container #vidieo{
+
+    background-color: rgba(209, 209, 10, 0.795);
+border-radius: 23px;
+
+}
+.html-container #reference{
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 23px;
+
+
+}
+.html-container #get{
+    background-color: rgb(188, 76, 95);
+    border-radius: 23px;
+}
+
+.css-container{
+    background-color:gold;
+    color: black;
+    padding-left: 300px;
+    line-height: 60px;
+
+}
+.css-container #learn-css{
+   background-color: rgb(22, 206, 9);
+   border-radius: 25px;
+ 
+}
+.css-container a{
+    font-size: 24px;
+    padding:15px 30px ;
+   
+}
+
+section a{
+    text-decoration: none ;
+}
+.css-container #css-reference{
+background-color: rgba(0, 0, 0, 0.844);
+border-radius: 23px;
+
+}
+.css-container #get-css{
+    background-color: rgb(216, 66, 91);
+    border-radius: 23px;
+
+}
+.js-container{
+    background-color: rgb(17, 231, 167);
+    line-height: 70px;
+    padding-left:300px;
+}
+.js-container #lern-js{
+    background-color: red;
+   
+}
+.js-container a{
+    font-size: 20px;
+    padding: 19px 30px;
+    border-radius: 23px;
+}
+.js-container #js-reference{
+    background-color: azure;
+    color: black;
+  
+}
+.js-container #get-certified{
+    background-color: rgba(0, 0, 0, 0.663);
+}
+.main-container{
+    background-color: black,blue;
+    height: 700px;
+    width: 100%;
+}
+.main-container .php{
+    background-color: rgb(195, 72, 115);
+    font-size: 30PX;
+    height: 250PX;
+    width: 600px;
+    border-radius: 8px;
+   margin: 30px 40px;
+}
+.main-container .php h2{
+    padding: 40px 250px;
+
+}
+.main-container .php p{
+    padding: 0px 60px;
+}
+.main-container .php .lern-php{
+    line-height: 100px;
+    background-color: black;
+    border-radius: 24px;
+    margin: 2px 200px;
+    padding: 5px 20px;
+  
+}
+ .main-container .jquery{
+    background-color: rgba(207, 207, 18, 0.652);
+    font-size: 30PX;
+    height: 250PX;
+    width: 600px;
+    border-radius: 8px;
+   margin: 30px 40px;
+  position: absolute;
+  right: 120px;
+  top:2095px;
+
+}
+.jquery .lern-j{
+    background-color: rgba(0, 0, 0, 0.701);
+    border-radius: 24px;
+    margin: 2px 200px;
+    padding: 5px 20px;
+    line-height: 80px;
+}
+
+.jquery h2{
+    padding: 40px 250px;
+}
+.jquery p{
+    padding: 0px 60px;
+}
+.main-container .java{
+    background-color: rgba(207, 207, 18, 0.652);
+    font-size: 30PX;
+    height: 250PX;
+    width: 600px;
+    border-radius: 8px;
+   margin: 30px 40px;
+  
+}
+.java h2{
+    padding: 40px 250px;
+}
+.java p{
+    padding: 0px 60px;
+}
+.java .lern-java{
+    background-color: rgba(0, 0, 0, 0.701);
+    border-radius: 24px;
+    margin: 2px 200px;
+    padding: 5px 20px;
+    line-height: 80px;
+}
+.main-container .c-lan{
+    background-color: rgba(207, 207, 18, 0.652);
+    font-size: 30PX;
+    height: 250PX;
+    width: 600px;
+    border-radius: 8px;
+   margin: 30px 40px;
+   position: absolute;
+   right: 120px;
+  top:2380px;
+}
+.c-lan h2{
+    padding: 40px 250px;
+}
+.c-lan p{
+    padding: 0px 60px;
+}
+.c-lan .lern-clan{
+    background-color: rgba(0, 0, 0, 0.701);
+    border-radius: 24px;
+    margin: 2px 200px;
+    padding: 5px 20px;
+    line-height: 80px;
+}
+.flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.flex-container .flex-box{
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(blue,red);
+    color: white;
+   text-align: center;
+   line-height: 150px;
+   margin: 20px;
+   border-radius:40px ;
+}
+footer div{
+    padding-top: 1000px;
+    font-size:60px;
+
+}
+@media only screen and (max-width:600px){
+    section{
+        flex: 100%;
+    }
+    
+
+}
